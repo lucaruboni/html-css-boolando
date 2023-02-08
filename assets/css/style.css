@@ -101,7 +101,7 @@ header{
 }
 
 .img_container{
-    
+    position: relative;
 }
 
 .badge{
@@ -128,8 +128,37 @@ header{
     top: 2vh;
     padding: 0.5vh;
     right: 0;
+}
 
+.bottom_card_text{
+    font-family: 'Roboto', sans-serif;   
+}
 
+.brand_name{
+    font-size: 2vh;
+}
+
+.product_name{
+    font-size: 2.2vh;
+}
+
+.price_tag{
+    color: red;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: black;
+}
+
+.fa-brands.fa-bitcoin{
+    color: #f7931a;
+    padding-left: 0.5vh;
+}
+
+.fa-brands.fa-ethereum{
+    color: #611dc1;
+    padding-left: 0.5vh;
 }
 
 img{
@@ -143,4 +172,74 @@ img{
     color: red;
 }
 
+.main_image{
+    display: inline-block;
+}
+
+.hover_image{
+    display: none;
+}
+
+.main_image:hover >.hover_image{
+    display: inline-block;
+}
+
+.main_image:hover{
+    display: none;
+}
 /* #endregion MAIN */
+
+/* #region FOOTER */
+
+footer{
+    background-color: #1a1a1a;
+    position: sticky;
+    bottom: 0;
+    padding-top: 2vh;
+}
+
+.footer{
+    justify-content: center;
+    height: 14vh;
+}
+
+#footer_title{
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    font-size: 3.2vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer_title_2{
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    font-size: 2.2vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot_font_size{
+    font-size: 1.8vh;
+}
+
+.list_position_bottom{
+    position: absolute;
+    left: 40vh;
+    top: 20%;
+}
+
+.list_container{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.list_position_right_bottom{
+    position: absolute;
+    right: 40vh;
+    bottom: 40%;
+}
