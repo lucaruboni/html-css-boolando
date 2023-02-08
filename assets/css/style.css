@@ -3,3 +3,68 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+
+/* #region utility */
+
+
+a{
+    text-decoration: none;
+    color: #e8e8e8;
+    padding: 2vh;
+}
+
+#boologo{
+    height: 5vh;
+}
+
+.flexbox{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.item_float{
+    float: left;
+}
+/* #endregion utility */
+
+/* #region HEADER */
+
+header{
+    background-color: #ff6900;
+    height: 10vh;
+    position: relative;
+}
+
+.header{
+    justify-content: center;
+}
+
+.list_position{
+    position: absolute;
+    left: 40vh;
+    top: 40%;
+}
+
+.img_container{
+    padding-top: 2.5vh;
+    font-weight: 600;
+}
+
+.list_position_right{
+    position: absolute;
+    right: 40vh;
+    top: 40%;
+}
+/* #endregion HEADER */
