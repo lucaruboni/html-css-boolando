@@ -105,8 +105,21 @@ header{
 }
 
 .badge{
-    display: inline-block;
-    width: 5vh;
+    position: absolute;
+    bottom: 6vh;
+    left: 1vh;
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.3vh;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    left: 8.4vh;
+    background-color: green;
 }
 
 .like{
