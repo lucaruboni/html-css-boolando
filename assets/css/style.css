@@ -102,16 +102,17 @@ header{
 
 .img_container{
     position: relative;
+    margin: 0 -1vh;
 }
 
 .badge{
     position: absolute;
     bottom: 6vh;
     left: 1vh;
-    font-size: 3vh;
+    font-size: 2vh;
     font-family: 'Roboto', sans-serif;
-    padding: 0.3vh;
-    margin: -1vh;
+    padding: 0.2vh;
+    
 }
 
 .red{
@@ -119,7 +120,7 @@ header{
 }
 
 .green{
-    left: 8.4vh;
+    left: 6vh;
     background-color: green;
 }
 
