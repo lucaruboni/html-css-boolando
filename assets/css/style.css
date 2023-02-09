@@ -172,21 +172,31 @@ img{
     color: red;
 }
 
+
+            /* IMMAGINI HOVER */
+
+
 .main_image{
     display: inline-block;
 }
 
-.hover_image{
+
+.img_container .hover_image{
     display: none;
 }
 
-.main_image:hover >.hover_image{
+.img_container:hover .main_image{
+    display: none;
+}
+
+.img_container:hover .hover_image{
     display: inline-block;
 }
 
-.main_image:hover{
-    display: none;
-}
+        /* IMMAGINI HOVER */
+
+
+
 /* #endregion MAIN */
 
 /* #region FOOTER */
