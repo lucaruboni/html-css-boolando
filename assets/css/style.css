@@ -111,6 +111,7 @@ header{
     font-size: 3vh;
     font-family: 'Roboto', sans-serif;
     padding: 0.3vh;
+    margin: -1vh;
 }
 
 .red{
